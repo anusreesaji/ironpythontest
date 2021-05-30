@@ -46,7 +46,7 @@ def testFile(filename, test_value):
     value = subprocess.check_output(command, shell=True).rstrip()
     timestamp = datetime.datetime.utcnow().isoformat()
 
-    log["name"] = "checkOdd"
+    log["name"] = filename
     log["timestamp"] = timestamp
     log["okay"] = value.decode("utf8")
 
