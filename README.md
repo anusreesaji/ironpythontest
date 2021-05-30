@@ -1,2 +1,2 @@
 # ironpythontest
-Basic python test implementation from scratch
+Basic Ironpython test implementation from scratch
